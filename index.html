@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andraz Ne gasi kamere</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        footer {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Andraz Ne gasi kamere</h1>
+        <div id="timer">03:00:00</div>
+        <div class="buttons">
+            <button onclick="addTime(3600)">Dodaj 1 uro (2 EUR)</button>
+            <button onclick="addTime(3600)">Dodaj 1 uro (25 likov)</button>
+            <button onclick="addTime(3600)">Dodaj 1 uro (200 ogledov)</button>
+            <button onclick="addTime(3600)">Dodaj 1 uro (10 subov)</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Andraz Ne gasi kamere. Vse pravice pridržane. Spletno stran ustvaril RyZe</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
